@@ -1,0 +1,20 @@
+{
+  "name": "scr",
+  "version": "1.0.0",
+  "description": "animu scraper",
+  "main": "index.js",
+  "repository": "github.com/kanbaru/scr",
+  "author": "onigiri",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@types/node": "^14.0.24",
+    "dotenv": "^8.2.0",
+    "oracledb": "^5.0.0",
+    "pg": "^8.3.0",
+    "prompts": "^2.3.2",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.2.25",
+    "winston": "^3.3.3"
+  }
+}

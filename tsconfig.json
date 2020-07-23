@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        //"watch": true,
+        "lib": ["es5", "es6", "ESNext"],
+        "outDir": ".build/",
+        "target": "es6",
+        "module": "commonjs",
+        "sourceMap": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+    },
+    "exclude": [
+        "tmp",
+        "temp",
+        ".ts",
+        "node_modules"
+    ]
+}
